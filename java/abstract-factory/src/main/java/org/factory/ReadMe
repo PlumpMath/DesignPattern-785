@@ -1,0 +1,21 @@
+工厂设计模式：
+实现创建者和调用者的分离
+分类：
+1.简单工厂模式
+2.工厂方法模式
+3.抽象工厂模式
+
+面向对象设计的基本原则：
+1.OCP(开闭原则： Open-Closed
+ Principle):对拓展开放，对修改关闭
+2.DIP(依赖倒转原则:Dependency Inversion Principle):对接口编程而不要针对实现编程
+3.LOD(Lay of Demeter)只与直接的类通信
+
+应用场景：
+1.JDK中Calendar的getInstance方法
+2.Spring中IOC容器创建管理bean对象
+3.Hibernate中SessionFactory创建Session
+4.JDBC中Connection对象的获取
+5.XML解析时DocumentBuilderFactory创建解析工厂
+6.反射中Class对象的newInstance()
+

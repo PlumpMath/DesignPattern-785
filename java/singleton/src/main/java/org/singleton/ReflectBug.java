@@ -3,7 +3,7 @@ package org.singleton;
 import java.io.ObjectStreamException;
 import java.io.Serializable;
 
-//懒汉式，(如何反射和反序列化漏洞)
+//懒汉式，(如何防止反反射和反序列化漏洞)
 public class ReflectBug  implements Serializable{
 	private static ReflectBug instance; 
 	

@@ -14,7 +14,7 @@ package org.singleton;
  * 
  */
 /*
- * 现场安全、调用效率高、不能延迟加载
+ * 线程安全、调用效率高、不能延迟加载
  */
 public class HungerySingleton {
 	private static HungerySingleton singleton = new HungerySingleton();
