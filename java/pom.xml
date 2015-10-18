@@ -24,7 +24,28 @@
 <!-- 行为型-->
 <!--  -->
     <module>singleton</module>
-  </modules>
+
+
+    <module>prototype</module>
+    <module>builder</module>
+    <module>adapter</module>
+    <module>proxy</module>
+    <module>bridge</module>
+    <module>composite</module>
+    <module>decorator</module>
+    <module>facade</module>
+    <module>flyweight</module>
+    <module>template</module>
+    <module>iterator</module>
+    <module>mediator</module>
+    <module>interpreter</module>
+    <module>memento</module>
+    <module>state</module>
+    <module>strategy</module>
+    <module>chainResponsibility</module>
+    <module>command</module>
+    <module>observer</module>
+</modules>
 
 
 <dependencyManagement>

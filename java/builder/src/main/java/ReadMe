@@ -1,0 +1,8 @@
+-创建者模式
+   分离了对象子组件的单独构造(由Builder来负者)和装配(由Director负者)，对象的构造比较复杂时使用。
+ 由于实现了构建和装配的解耦。不同的构建器，相同的装配也可以做出不同的对象；相同的构建器，不同的装配顺序也可以做出不同的 对象。也就是实现了构建算法、装配算法的解耦，实现了更好的复用。
+ 应用场景：
+ StringBuilder类的append方法
+ SQL中的PreparedStatement
+ JDOM中，DomBuilder SAXBuilder
+ 
