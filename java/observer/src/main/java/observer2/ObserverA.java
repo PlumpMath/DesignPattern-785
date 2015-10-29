@@ -1,5 +1,6 @@
 package observer2;
 
+
 import java.util.Observable;
 import java.util.Observer;
 
