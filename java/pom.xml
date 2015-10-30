@@ -45,6 +45,7 @@
     <module>chainResponsibility</module>
     <module>command</module>
     <module>observer</module>
+    <module>visitor</module>
 </modules>
 
 
